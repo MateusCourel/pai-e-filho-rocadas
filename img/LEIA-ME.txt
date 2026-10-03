@@ -1,0 +1,3 @@
+Coloque aqui as fotos do site:
+- carrossel-1.jpg, carrossel-2.jpg, carrossel-3.jpg (horizontais, ~1600x900)
+- sobre.jpg (foto de voces dois)

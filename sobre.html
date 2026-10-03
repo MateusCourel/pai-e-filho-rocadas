@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sobre nós | Pai e Filho Roçadas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-verde sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="bi bi-tree-fill"></i> Pai e Filho Roçadas</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="planos.html">Planos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="sobre.html">Sobre nós</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="py-5">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-5">
+          <!-- Troque por uma foto de vocês dois: img/sobre.jpg -->
+          <img src="img/sobre.jpg" alt="Pai e filho" class="img-fluid rounded shadow"
+               onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'bg-verde rounded text-white d-flex align-items-center justify-content-center',style:'height:320px',innerHTML:'<i class=&quot;bi bi-people-fill&quot; style=&quot;font-size:5rem&quot;></i>'}))">
+        </div>
+        <div class="col-lg-7">
+          <h1 class="fw-bold mb-3">Sobre nós</h1>
+          <!-- ✏️ ESCREVAM A HISTÓRIA DE VOCÊS AQUI -->
+          <p class="lead">Somos pai e filho e decidimos unir forças para oferecer um serviço de roçada honesto, caprichado e com preço justo.</p>
+          <p class="text-muted">[Contem aqui como começou, há quanto tempo trabalham com isso, quais regiões atendem e o que diferencia vocês.]</p>
+          <a class="btn btn-whats" data-whatsapp="Olá! Vim pela página Sobre nós e quero conversar."><i class="bi bi-whatsapp"></i> Fale com a gente</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-4">
+    <div class="container small">© <span id="ano"></span> Pai e Filho Roçadas</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/config.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pai e Filho Roçadas | Roçada e limpeza de terrenos</title>
+  <meta name="description" content="Roçada e limpeza de terrenos com planos avulsos e mensais. Peça seu orçamento pelo WhatsApp.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== MENU (vira "hambúrguer" no celular) ===== -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-verde sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="bi bi-tree-fill"></i> Pai e Filho Roçadas</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="planos.html">Planos</a></li>
+          <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre nós</a></li>
+          <li class="nav-item"><a class="btn btn-whats btn-sm ms-lg-2 mt-2 mt-lg-0" data-whatsapp="Olá! Vim pelo site e quero um orçamento de roçada."><i class="bi bi-whatsapp"></i> Orçamento</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== CARROSSEL =====
+       Coloque suas fotos em img/ com estes nomes (ou troque os nomes abaixo).
+       Se a foto não existir, aparece um fundo verde no lugar. -->
+  <div id="carrosselHome" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carrosselHome" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carrosselHome" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carrosselHome" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="hero-slide" style="background-image:url('img/carrossel-1.jpg')">
+          <div class="carousel-caption text-start">
+            <h2>Terreno limpo, sem dor de cabeça</h2>
+            <p>Roçada e limpeza de terrenos com capricho de quem trabalha em família.</p>
+            <a class="btn btn-whats btn-lg" data-whatsapp="Olá! Quero um orçamento para roçar meu terreno."><i class="bi bi-whatsapp"></i> Pedir orçamento</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="hero-slide" style="background-image:url('img/carrossel-2.jpg')">
+          <div class="carousel-caption text-start">
+            <h2>Evite multas da prefeitura</h2>
+            <p>Mato alto em terreno pode gerar notificação. A gente resolve antes disso.</p>
+            <a class="btn btn-light btn-lg" href="planos.html">Ver planos</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="hero-slide" style="background-image:url('img/carrossel-3.jpg')">
+          <div class="carousel-caption text-start">
+            <h2>Planos mensais com desconto</h2>
+            <p>Agende uma vez e esqueça: voltamos todo mês para manter seu terreno em dia.</p>
+            <a class="btn btn-light btn-lg" href="planos.html">Conhecer planos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carrosselHome" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carrosselHome" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- ===== BENEFÍCIOS ===== -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-2">Por que manter o terreno roçado?</h2>
+      <p class="text-center text-muted mb-5">Além da aparência, um terreno limpo é mais seguro e valorizado.</p>
+      <div class="row g-4 text-center">
+        <div class="col-6 col-md-3">
+          <div class="icone-beneficio mb-3"><i class="bi bi-bug"></i></div>
+          <h5>Menos pragas</h5>
+          <p class="text-muted small">Afasta escorpiões, cobras, ratos e o mosquito da dengue.</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="icone-beneficio mb-3"><i class="bi bi-fire"></i></div>
+          <h5>Previne queimadas</h5>
+          <p class="text-muted small">Mato seco é combustível. Roçar reduz o risco de incêndio.</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="icone-beneficio mb-3"><i class="bi bi-house-check"></i></div>
+          <h5>Valoriza o imóvel</h5>
+          <p class="text-muted small">Terreno bem cuidado vende e aluga mais rápido.</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="icone-beneficio mb-3"><i class="bi bi-file-earmark-x"></i></div>
+          <h5>Sem multas</h5>
+          <p class="text-muted small">Fique em dia com as exigências de limpeza do município.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VANTAGENS / COMO FUNCIONA ===== -->
+  <section class="py-5 bg-white border-top border-bottom">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6">
+          <h2 class="fw-bold mb-4">Vantagens de contratar a gente</h2>
+          <ul class="list-unstyled">
+            <li class="mb-3"><i class="bi bi-check-circle-fill text-verde me-2"></i><strong>Atendimento direto</strong> — você fala com quem faz o serviço.</li>
+            <li class="mb-3"><i class="bi bi-check-circle-fill text-verde me-2"></i><strong>Equipamento próprio</strong> — roçadeira, EPI e ferramentas.</li>
+            <li class="mb-3"><i class="bi bi-check-circle-fill text-verde me-2"></i><strong>Data combinada</strong> — agendamos e cumprimos.</li>
+            <li class="mb-3"><i class="bi bi-check-circle-fill text-verde me-2"></i><strong>Fotos de antes e depois</strong> — ideal para quem não mora perto do terreno.</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="fw-bold mb-4">Como funciona</h2>
+          <div class="d-flex mb-3"><span class="badge bg-verde rounded-pill me-3 fs-6">1</span><div>Chame no WhatsApp e envie o endereço ou localização.</div></div>
+          <div class="d-flex mb-3"><span class="badge bg-verde rounded-pill me-3 fs-6">2</span><div>Passamos o orçamento conforme o tamanho e o estado do terreno.</div></div>
+          <div class="d-flex mb-3"><span class="badge bg-verde rounded-pill me-3 fs-6">3</span><div>Agendamos a data e realizamos o serviço.</div></div>
+          <div class="d-flex mb-3"><span class="badge bg-verde rounded-pill me-3 fs-6">4</span><div>Você recebe as fotos e paga só depois do serviço feito.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CHAMADA FINAL ===== -->
+  <section class="py-5 text-center">
+    <div class="container">
+      <h2 class="fw-bold">Seu terreno está precisando?</h2>
+      <p class="text-muted">Mande uma mensagem e receba seu orçamento sem compromisso.</p>
+      <a class="btn btn-whats btn-lg" data-whatsapp="Olá! Quero um orçamento de roçada."><i class="bi bi-whatsapp"></i> Chamar no WhatsApp</a>
+    </div>
+  </section>
+
+  <footer class="py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-2 small">
+      <span>© <span id="ano"></span> Pai e Filho Roçadas — Sua Cidade/UF</span>
+      <a href="admin/login.html" class="text-decoration-none opacity-50">Área restrita</a>
+    </div>
+  </footer>
+
+  <a class="whats-flutuante" data-whatsapp="" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/config.js"></script>
+</body>
+</html>
